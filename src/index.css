@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: aliceblue;
+    background-color: #060914;
+    background-image: url(/src/img/background.png);
+}
+
+.typing-effect {
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    overflow: hidden;
+    width: 15ch;
+    animation: typing 2s steps(19), blink .5s infinite step-end alternate;
+}
+
+@keyframes typing {
+    from {width: 0}
+}
+
+@keyframes blink {
+    50% {border-color: transparent}
+}
