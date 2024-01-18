@@ -4,6 +4,7 @@ import NavItem from './components/NavItem.jsx';
 import GithubSVG from './components/GithubSVG.jsx';
 import CvSVG from './components/CvSVG.jsx';
 import LinkedinSVG from './components/LinkedinSVG.jsx';
+import ImagenPrincipal from './img/imagen.jpg';
 
 const MainPage = () => {
     return (
@@ -31,7 +32,7 @@ const MainPage = () => {
                     </div>
                 </div>
                 <div className='w-1/4 flex flex-col justify-center align-middle'>
-                    <img className='mb-4 rounded-full h-auto' src='/src/img/imagen.jpg' alt='Pablo Gálvez Ortuño' />
+                    <img className='mb-4 rounded-full h-auto' src={ImagenPrincipal} alt='Pablo Gálvez Ortuño' />
                 </div>
             </header>
             <main className='w-full justify-center'>
