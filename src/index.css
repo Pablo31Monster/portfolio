@@ -14,12 +14,32 @@ body {
     background-image: url(/src/img/background.png);
 }
 
+::-webkit-scrollbar {
+    width: 7px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #f1f5f98f;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #F1F5F9;
+}
+
 .typing-effect {
     display: block;
     white-space: nowrap;
     border-right: 4px solid;
     overflow: hidden;
-    width: 15ch;
+    width: 730px;
     animation: typing 2s steps(19), blink .5s infinite step-end alternate;
 }
 
