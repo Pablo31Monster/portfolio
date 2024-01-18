@@ -44,7 +44,7 @@ const MainPage = () => {
                     <div className='w-1/2 p-12 m-4 border border-slate-700 bg-slate-950 rounded-xl'>
                         <h3 className='text-3xl w-full text-slate-300 pb-1 mb-4 uppercase font-medium text-center'>Sobre mi</h3>
                         <p className='text-slate-400'>Tengo 20 años y soy estudiante 3º de la Universidad de Murcia en el Grado de Ingenieria Informatica. Me apasiona aprender nuevas tecnologías y emprender nuevos proyectos y estoy desenado unirme a un equipo donde pueda contribuir y crecer profesionalmente.</p>
-                        <p className='text-slate-400'></p>
+                        <p className='text-slate-400'>Test</p>
                     </div>
 
 
