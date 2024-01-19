@@ -11,7 +11,13 @@ body {
     font-size: 1rem;
     color: aliceblue;
     background-color: #060914;
-    background-image: url(/src/img/background.png);
+    background-image: url(/bg.svg);
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-bottom: 0.4rem;
 }
 
 ::-webkit-scrollbar {
