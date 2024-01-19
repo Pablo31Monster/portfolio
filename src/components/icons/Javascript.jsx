@@ -6,4 +6,5 @@ const JavaScript = ({ width, height, style }) => {
     )
 };
 
+
 export default JavaScript;
