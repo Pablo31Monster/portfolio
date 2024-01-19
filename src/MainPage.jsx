@@ -8,7 +8,7 @@ import Linkedin from './components/icons/Linkedin.jsx';
 
 import Html from './components/icons/Html.jsx';
 import Css from './components/icons/Css.jsx';
-import JavaScript from './components/icons/JavaScript.jsx';
+import JavaScript from './components/icons/JavaScriptz.jsx';
 import ReactI from './components/icons/ReactI.jsx';
 import TailwindCSS from './components/icons/TailwindCSS.jsx';
 import Vite from './components/icons/Vite.jsx';
