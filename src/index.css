@@ -40,6 +40,16 @@ p {
     background: #F1F5F9;
 }
 
+.items-normal {
+    align-items: normal;
+}
+
+@media (min-width: 1024px) {
+    .lg\:items-normal {
+        align-items: normal;
+    }
+}
+
 .typing-effect {
     display: block;
     white-space: nowrap;
