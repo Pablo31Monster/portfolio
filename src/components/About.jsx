@@ -17,12 +17,12 @@ const About = () => {
     return (
         <div id='sobre-mi' className='w-full mt-24 pt-10 container flex lg:flex-row flex-col lg:items-normal items-center justify-around m-auto'>
             <div className='lg:w-1/2 w-3/4 p-12 m-4 border border-slate-800 bg-slate-950 rounded-xl'>
-                <h3 className='text-3xl w-full text-slate-300 pb-1 mb-4 uppercase font-medium text-center'>Sobre mi</h3>
+                <h3 className='text-3xl w-full text-slate-300 pb-1 mb-4 uppercase font-semibold text-center'>Sobre mi</h3>
                 <p className='text-slate-400 font-semibold'>Tengo 20 años y todo el mundo me conoce como Gálvez. Estudio el tercer año del grado en la Universidad de Murcia, España. Empecé a programar en una placa Arduino y he ido evolucionando hasta crear mis propios proyectos personales.</p>
                 <p className='text-slate-400 font-semibold'></p>
             </div>
             <div className='lg:w-1/2 w-3/4 p-12 m-4 border border-slate-800 bg-slate-950 rounded-xl'>
-                <h3 className='text-3xl w-full text-slate-300 pb-1 mb-4 uppercase font-medium text-center'>Habilidades</h3>
+                <h3 className='text-3xl w-full text-slate-300 pb-1 mb-4 uppercase font-semibold text-center'>Habilidades</h3>
                 <div className='grid xl:grid-cols-4 grid-cols-3 gap-4'>
                     <SkillItem>
                         <Html width='64px' height='64px' style='m-auto p-1 fill-yellow-200'/>

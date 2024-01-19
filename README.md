@@ -2,7 +2,7 @@
 ## 🛠️ Stack
 
 - [**Vite**](https://vitejs.dev/)
-- [**React**](https://astro.build/)
+- [**React**](https://es.react.dev/)
 - [**Tailwindcss**](https://tailwindcss.com/)
 
 ## 🚀 Getting Started

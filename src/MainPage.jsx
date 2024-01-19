@@ -11,14 +11,14 @@ const MainPage = () => {
             <NavBar id="navbar">
                 <NavItem href='#inicio' name='Inicio' />
                 <NavItem href='#proyectos' name='Proyectos' />
-                <NavItem href='' name='Contacto' />
                 <NavItem href='#sobre-mi' name='Sobre mi' />
+                <NavItem href='#contacto' name='Contacto' />
             </NavBar>
             <Header />
             <main className='w-full justify-center'>
                 <About />
                 <div id='proyectos' className='w-full justify-center'>
-                    <div className='h-screen container flex justify-center mx-8'>
+                    <div className='h-screen container flex justify-center'>
                         
                     </div>
                 </div>
